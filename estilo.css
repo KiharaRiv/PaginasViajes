@@ -1,0 +1,140 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;/*el area alrededor del elemento*/
+  background-color: blue; 
+  color: black; /* Color de texto principal */
+}
+
+/* Encabezado */
+header {
+  background-color: skyblue;
+  color: black;
+  text-align: center;
+  padding: 30px;
+}
+
+header h1,
+header h2 {
+  margin: 1px;
+  color: grey;
+}
+
+/* Navegación */
+nav {
+  background-color:#6090ff;
+  color: black;
+  padding: 10px;
+}
+
+.page {
+  background-color:#6090ff;
+  list-style: none;
+  color: black;
+}
+
+.page a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Contenido principal */
+section {
+  background-color: #3a5eff;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen de destino */
+.destino {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.destino img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.destino p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el texto */
+  color: white; /* Color del texto */
+  padding: 10px;
+  margin: 0;
+  max-width: 80%; /* Ancho máximo para el texto */
+  display: none; /* Ocultar inicialmente el texto */
+}
+
+.destino:hover p {
+  display: block; /* me muestra el texto al pasar el cursor sobre la imagen */
+}
+
+/* Pie de página */
+footer {
+  background-color: #005fbb;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Formulario de opiniones */
+form ul {
+  list-style: none
+  padding: 0;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: white;
+  color: black; /* Color del texto del botón */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Redes sociales */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  margin: 10px 0;
+  color: black;
+  text-decoration: none;
+}
+
+/* Enlaces  */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;/*subrayado */ 
+}
